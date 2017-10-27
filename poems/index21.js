@@ -1,8 +1,3 @@
-/* jslint browser: true */
-/* global $, jQuery, alert, console */
-$('button').click(function () {
-    
-    
-    "use strict";
+$('button').click(function() {
     $('.announcement').toggle();
 });

@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Level 4: Variation 5</title>
-</head>
-     <link rel="stylesheet" type="text/css" href="index21.css">
+<title>Level 5: Variation 1</title>
+
     <script src="index21.js"></script>
-        <script type="text/javascript" src="index21.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+    .announcement {
+    display: none;
+    background: lightblue;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+}
+    
+    
+    </style>
+    
+
+</head>
+    
 <body>
-
-    <button><h1>I Wandered Lonely As a Cloud</h1></button>
+<button><h1>I Wandered Lonely as a Cloud (Daffodils)</h1></button>
 
 <div class="announcement">
    <span><p>I wandered lonely as a cloud
@@ -63,11 +76,19 @@ And then my heart with pleasure fills,
     <br>
 And dances with the daffodils. 
     <br>
+       <br>
+    <br>
+    William Wordsworth
+
+
 </p>
 </span>
 </div>
-
-
-
+    
+<script>
+    $('button').click(function() {
+    $('.announcement').toggle();
+});
+    </script>
 </body>
 </html>
