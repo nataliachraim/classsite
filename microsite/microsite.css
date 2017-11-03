@@ -1,20 +1,47 @@
-div {
-  background: #aaaaaa;
-  background: linear-gradient(#FF3F33, #33B8FF);
-    height: 4000px;
-    background-attachment: fixed;
-    background-position: top right;
+.title {
+    width: auto;
+    background: #aaaaaa;
+    background: linear-gradient(#FF3F33, #33B8FF);
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    right: -1px;
 }
 
 H1  {
     font-family: sans-serif;
-    font-size: 3000%;
     text-align: center;
+    font-size: 300px;
+}
+
+H1:hover {
+    color: darkorange;
 }
 
 H2  {
     font-family: cursive;
-    font-size: 3000%;
     text-align: center;
     font-style: italic;
+    font-size: 300px;
+    color: aliceblue;
+}
+
+H2:hover {
+    color: aqua;
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
