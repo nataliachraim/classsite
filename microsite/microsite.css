@@ -6,6 +6,7 @@
     top: -2px;
     left: -1px;
     right: -1px;
+    color: aliceblue;
 }
 
 H1  {
@@ -14,12 +15,6 @@ H1  {
     font-size: 300px;
 }
 
-h1:hover {
-
-}
-
-h1 {
-}
 
 
 .fire {
@@ -116,6 +111,7 @@ H2  {
     color: aqua;
     animation: shake 0.5s; 
     animation-iteration-count: infinite; 
+    object-position: top;
 }
 
 @keyframes shake {
@@ -153,11 +149,21 @@ p2 {
       
 }
 
+p3 {
+    font-family: sans-serif;
+    position: fixed;
+    margin-left: 7px;
+    position: fixed; 
+    bottom: 5px;
+    
+    
+}
+
 body { background-color:#333; }
 #snow{
 	background: none;
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-	height: 50%;
+	height: 30%;
 	left: 0;
 	position: absolute;
     bottom: 0;
