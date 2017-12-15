@@ -1,0 +1,25 @@
+.fixed-size-container {
+    max-width: 1000px;
+    padding: 30px 0;
+    margin: 40px auto 0 auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+/*  flex-direction: row-reverse;
+    flex-direction: column;
+    */   
+    }
+    
+.fixed-size {
+    width: 150px;
+    height: 70px;
+    background-color: lightpink;
+    text-align: center;
+    font-size: 40px; 
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    box-sizing: content-box;
+    }

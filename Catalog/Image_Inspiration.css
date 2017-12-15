@@ -1,0 +1,15 @@
+body {
+  background: silver;
+  background-image: radial-gradient(black 30%, transparent 0), radial-gradient(black 30%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+} 
+
+
+
+
+
+
+
+
+
