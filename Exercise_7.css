@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+p {
+        background-color: skyblue;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+p {
+        padding: 600px;
+    }
+	
+}
+
+
+
+@media screen and (max-width: 600px) {
+p {
+        background-color: mediumpurple;
+    }
+	
+}
+
+
+
+@media screen and (max-width: 480px) {
+    p {
+        background-color: lightgreen;
+    }
+	
+}
+
+
+@media screen and (max-width: 320px) {
+p {
+        background-color: lightgreen;
+    }
+}
+
+
